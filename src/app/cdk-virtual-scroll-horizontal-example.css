@@ -1,7 +1,27 @@
-.cdk-virtual-scroll-data-source-example .example-viewport {
+.cdk-virtual-scroll-data-source-example {
+  border: 3px solid black;
+}
+
+.dates {
+  overflow: hidden;
+}
+
+.cdk-virtual-scroll-data-source-example.outer .example-viewport {
+  height: 500px;
+  width: 600px;
+  border: 2px solid purple;
+}
+
+.cdk-virtual-scroll-data-source-example.inner .example-viewport {
+  height: 20px;
+  width: 600px;
+  border: 2px solid green;
+}
+
+.cdk-virtual-scroll-data-source-example.inner .example-viewport.rows {
   height: 300px;
   width: 600px;
-  border: 3px solid black;
+  border: 2px solid green;
 }
 
 .cdk-virtual-scroll-data-source-example
